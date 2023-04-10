@@ -59,7 +59,7 @@
   top: 172px;
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 600px) {
   .app-components {
     margin-top: 18rem;
   }
@@ -71,7 +71,7 @@
   height: 40vh;
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 600px) {
   .header {
       width: 100%;
       height: 30vh;
@@ -104,7 +104,7 @@ li{
   margin: auto;
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 600px) {
   .p-container {
       position: relative;
       width: 50%;
@@ -119,7 +119,7 @@ li{
   border: 2px solid #8EFF8B;
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 600px) {
   .search-box {
     position: relative;
     border: 2px solid #8EFF8B;
@@ -212,7 +212,7 @@ li{
 
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 600px) {
   .residents {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -235,7 +235,7 @@ li{
   overflow: hidden;
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 600px) {
   .card {
       width: 425px;
       height: 640px;
@@ -253,7 +253,7 @@ li{
   object-fit: fill;
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 600px) {
   .card-img {
     width: 100%;
     height: 450px;
