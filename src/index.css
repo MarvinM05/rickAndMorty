@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #000000;
+  color: #FBFBFB;
+  background-image: url(/public/bgHeader.png);
+}
+
+/*
+font-family: 'Atma',
+cursive;
+font-family: 'Fira Code',
+monospace;
+*/
+
