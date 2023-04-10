@@ -19,7 +19,7 @@ function App() {
     axios
       .get(`https://rickandmortyapi.com/api/location/${idLocation}`)
       .then((res) => setLocation(res.data))
-      .catch((error) => console.log(error))
+      .catch((error) => console.error(error))
       .finally(() => {
 
         setTimeout(() => {
@@ -38,10 +38,10 @@ function App() {
 
   return (
     <div className="App">
+      {loaderR && <Loader />}
       <Header />
       <div className="app-components">
         <h2 className="app-tittle">¡Welcome to the crazy universe!</h2>
-        {loaderR && <Loader />}
         <Form submitSearch={newId} />
         <Location locationData={location} />
         <ul className="residents">
