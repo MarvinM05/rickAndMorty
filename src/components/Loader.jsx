@@ -3,7 +3,7 @@ const Loader = () => {
     
     return (
         <div className="loader">
-            <img className="pikle" src={`/public/rickandmorty.png`} alt="" />
+            <img className="pikle" src="/rickandmorty.png" alt="" />
         </div>
     )
 }
